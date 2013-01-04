@@ -15,16 +15,9 @@ client.subscribe('QueueB', function(err, message) {
   console.log(message);
 });
 
-setTimeout(function() {
+setInterval(function() {
   client.enqueue('QueueA', { something: "someValueA" }, function(err, result) {
     console.log('Error: ' + err);
     console.log(result);
   });
-}, 3000);
-
-setTimeout(function() {
-  client.enqueue('QueueB', { something: "someValueB" }, function(err, result) {
-    console.log('Error: ' + err);
-    console.log(result);
-  });
-}, 5000);
+}, 500);
