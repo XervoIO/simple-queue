@@ -4,10 +4,16 @@
   "description" : "Very simple network queue for Node.js application.",
   "homepage" : "https://github.com/onmodulus/simple-queue",
   "author" : "Modulus <support@modulus.io>",
-  "contributors" : {
-    "name" : "Brandon Cannaday",
-    "email" : "brandon@modulus.io"
-  },
+  "contributors" : [
+    {
+      "name" : "Brandon Cannaday",
+      "email" : "brandon@modulus.io"
+    },
+    {
+      "name" : "Matt Hernandez",
+      "email" : "matt@modulus.io"
+    }
+  ],
   "repository" : {
     "type" : "git",
     "url" : "git://github.com/onmodulus/simple-queue.git"

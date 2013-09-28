@@ -15,6 +15,8 @@ client.subscribe('QueueB', function(err, message) {
   console.log(message);
 });
 
+client.on('error', console.error);
+
 setInterval(function() {
   client.enqueue('QueueA', { something: "someValueA" }, function(err, result) {
     console.log('Error: ' + err);
