@@ -1,21 +1,21 @@
 {
-  "name" : "simple-queue",
-  "version" : "0.0.1",
-  "description" : "Very simple network queue for Node.js application.",
-  "homepage" : "https://github.com/onmodulus/simple-queue",
-  "author" : "Modulus <support@modulus.io>",
-  "contributors" : {
-    "name" : "Brandon Cannaday",
-    "email" : "brandon@modulus.io"
+  "name": "simple-queue",
+  "version": "1.0.0",
+  "description": "Very simple network queue for Node.js application.",
+  "homepage": "https://github.com/onmodulus/simple-queue",
+  "author": "Modulus <support@modulus.io>",
+  "contributors": {
+    "name": "Brandon Cannaday",
+    "email": "brandon@modulus.io"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/onmodulus/simple-queue.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onmodulus/simple-queue.git"
   },
-  "main" : "./lib/simple-queue.js",
-  "dependencies" : {
-    "express" : "3.0.5",
-    "tracer" : "0.5.1",
-    "request" : "2.12.0"
+  "main": "./lib/simple-queue.js",
+  "dependencies": {
+    "express": "3.0.5",
+    "tracer": "0.5.1",
+    "request": "2.12.0"
   }
 }
