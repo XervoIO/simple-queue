@@ -1,6 +1,6 @@
 {
   "name": "simple-queue",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Very simple network queue for Node.js application.",
   "homepage": "https://github.com/XervoIO/simple-queue",
   "author": "Xervo <info@xervo.io>",
