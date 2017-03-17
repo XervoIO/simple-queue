@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  simple-queue:
+    container_name: simple-queue
+    image: xervo/simple-queue:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    environment:
+      NODE_ENV: development
+    volumes:
+      - .:/usr/src/app

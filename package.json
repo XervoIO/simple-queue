@@ -2,20 +2,25 @@
   "name": "simple-queue",
   "version": "1.0.0",
   "description": "Very simple network queue for Node.js application.",
-  "homepage": "https://github.com/onmodulus/simple-queue",
-  "author": "Modulus <support@modulus.io>",
-  "contributors": {
-    "name": "Brandon Cannaday",
-    "email": "brandon@modulus.io"
-  },
+  "homepage": "https://github.com/XervoIO/simple-queue",
+  "author": "Xervo <info@xervo.io>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onmodulus/simple-queue.git"
+    "url": "git://github.com/XervoIO/simple-queue.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "start": "node lib/server/simple-queue-server.js",
+    "test": "npm run lint && npm run unit",
+    "unit": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "./lib/simple-queue.js",
   "dependencies": {
     "express": "3.0.5",
     "tracer": "0.5.1",
     "request": "2.12.0"
+  },
+  "devDependencies": {
+    "standard": "9.0.1"
   }
 }
